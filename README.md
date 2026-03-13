@@ -22,3 +22,9 @@ https://github.com/quodlibet/mutagen
 https://mutagen.readthedocs.io/en/latest/index.html
 
 #### 4.好了就这么多，有缘人得见。
+### 20260304
+#### 为解决mpeg格式的音频文件转换而增加mpeg后缀
+### 20260312
+#### 为解决路径和文件名含特殊字符而修改replace_invalid_chars函数
+#### 添加全角'｜'和 '：'转换
+#### 将转换为" "改为转换为"_"，避免末尾出现空格而失败
